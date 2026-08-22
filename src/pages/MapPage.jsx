@@ -21,6 +21,7 @@ export default function MapPage() {
       Ver glossário →
       </Link>
 
+    
       <footer className="map-page__footer">
         <span>Catarina</span>
         <div className="map-page__footer-line" />

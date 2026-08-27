@@ -17,8 +17,9 @@
   font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--road);
+  color: var(--accent-cool);
   margin-bottom: 10px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
 }
 
 .map-page__title {
@@ -27,13 +28,15 @@
   font-size: clamp(32px, 6vw, 48px);
   margin: 0 0 12px;
   line-height: 1.05;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7);
 }
 
 .map-page__subtitle {
-  color: var(--text-muted);
+  color: var(--text);
   font-size: 15px;
   line-height: 1.5;
   margin: 0;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.75);
 }
 
 .route-map {

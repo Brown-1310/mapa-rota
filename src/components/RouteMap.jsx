@@ -83,6 +83,9 @@ export default function RouteMap() {
                 y={city.y - 20}
                 textAnchor="middle"
                 fill="var(--text)"
+                stroke="rgba(0, 0, 0, 0.85)"
+                strokeWidth="3"
+                paintOrder="stroke"
                 fontFamily="var(--font-body)"
                 fontSize={isHovered ? 15 : 13}
                 fontWeight={isHovered || isEndpoint ? 600 : 500}

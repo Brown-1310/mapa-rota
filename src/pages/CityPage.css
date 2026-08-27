@@ -12,8 +12,8 @@
   margin-bottom: 32px;
 }
 
-.city-page__back:hover {
-  color: var(--road);
+.city-page__nav-link:hover {
+  color: var(--accent-cool);
 }
 
 .city-page__eyebrow {
@@ -21,8 +21,9 @@
   font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--road);
+  color: var(--accent-cool);
   margin-bottom: 10px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
 }
 
 .city-page__title {

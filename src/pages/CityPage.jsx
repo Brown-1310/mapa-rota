@@ -24,7 +24,21 @@ export default function CityPage() {
         Parada {index + 1} de {cities.length}
       </span>
       <h1 className="city-page__title">{city.name}</h1>
-      <p className="city-page__description">{city.description}</p>
+      {city.description.map((paragraph, i) => {
+        const isValue = paragraph.trim().startsWith('·')
+        return (
+          <p
+            className={
+              isValue
+                ? 'city-page__description city-page__description--indent'
+                : 'city-page__description'
+           }
+            key={i}
+          >
+            {paragraph}
+          </p>
+        )
+      })}
 
       <nav className="city-page__nav">
         {prev ? (

@@ -60,3 +60,8 @@
 .city-page__nav-link:hover {
   color: var(--node-active);
 }
+
+.city-page__description--indent {
+  margin-left: 24px;
+  margin-top: -8px;
+}

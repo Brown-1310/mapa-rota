@@ -1,7 +1,10 @@
 .city-page {
   max-width: 560px;
-  margin: 0 auto;
-  padding: 48px 24px 64px;
+  margin: 40px auto;
+  padding: 40px 32px 56px;
+  background: rgba(20, 28, 22, 0.72);
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
 }
 
 .city-page__back {

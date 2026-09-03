@@ -9,7 +9,7 @@ export default function GlossaryPage() {
         ← Voltar para o mapa
       </Link>
 
-      <h1 className="glossary-page__title">Glossário</h1>
+      <h1 className="glossary-page__title">Dicionário</h1>
 
       <dl className="glossary-page__list">
         {glossary.map((item) => (

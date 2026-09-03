@@ -18,7 +18,7 @@ export default function MapPage() {
       <RouteMap />
 
      <Link to="/glossario" className="map-page__glossary-link">
-      Ver glossário →
+      Ver dicionário →
       </Link>
 
     
